@@ -1,0 +1,5 @@
+After analyzing the available parents and their edits, I propose the following combination of edits to create the child program:
+
+Child: ["SrcmlStmtDeletion(('Triangle.java.xml', 'stmt', 7))", "SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 5), ('Triangle.java.xml', 'stmt', 0))", "SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 20), ('Triangle.java.xml', 'stmt', 10))"]
+
+I chose the edits from Parent 1, Parent 2, and Parent 3 because they are the lowest fitness parents and their edits seem to be the most beneficial for repairing the bug in the source file. The edits from Parent 1 and Parent 2 will remove and insert statements in the correct places, while the edit from Parent 3 will insert a statement in a strategic location. This combination of edits should result in a child program that is functionally correct and has a lower fitness than the source file.

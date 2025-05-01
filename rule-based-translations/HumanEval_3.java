@@ -1,0 +1,23 @@
+package com.example;
+import typing.List;
+
+
+public void below_zero(operations: List{int}) -> bool{
+    /* You're given a list of deposit and withdrawal operations on a bank account that starts with;
+    zero balance. Your task is to detect if at any point the balance of account fallls below zero, and;
+    at that point function should return true. Otherwise it should return false.;
+    >>> below_zero({1, 2, 3});
+    false;
+    >>> below_zero({1, 2, -4, 5});
+    true;
+    */
+    var account = 0;
+    for (int operation = 0; operation < operations.length; operation++){
+        account += operation;
+        if (account < 0) {
+            return true;
+        }
+    }
+     return false;
+
+}

@@ -1,0 +1,28 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    vector<int> arr(n);
+    for(int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+    if(arr[0] > 15) {
+        cout << 15;
+    } else {
+        for(int i = 1; i < arr.size(); i++) {
+            if(arr[i] - arr[i - 1] > 15) {
+                cout << arr[i - 1] + 15;
+                break;
+            }
+        }
+        if(arr[arr.size() - 1] == 90 || arr[arr.size() - 1] + 15 >= 90) {
+            cout << 90;
+        } else {
+            cout << arr[arr.size() - 1] + 15;
+        }
+    }
+    return 0;
+} // End of Code

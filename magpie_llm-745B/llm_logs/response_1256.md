@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'stmt', 9))", "SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 8), ('Triangle.java.xml', 'stmt', 10))"]
+
+I chose the edit from Parent 2 (fitness 50.0) which is the lowest fitness, and the edit from Parent 3 (fitness 75.0) which seems to be a relevant edit to fix the TODO comment. The combination of these two edits has the potential to create a functionally correct child program.

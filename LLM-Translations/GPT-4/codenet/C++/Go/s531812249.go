@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var n, m int
+	fmt.Scan(&n)
+	fmt.Scan(&m)
+
+	ans := 0
+
+	ans += n * (n - 1) / 2
+
+	ans += m * (m - 1) / 2
+
+	fmt.Println(ans)
+}
+
+// 

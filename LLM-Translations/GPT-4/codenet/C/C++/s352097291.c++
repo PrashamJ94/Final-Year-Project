@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+    string c, ans="";
+    cin >> c;
+    for(int i=0; i<c.length(); i++){
+        if(c[i]!='B')
+            ans += c[i];
+        else
+            ans = ans.substr(0, ans.length()-1);
+    }
+    cout << ans << endl;
+    return 0;
+}
+// 

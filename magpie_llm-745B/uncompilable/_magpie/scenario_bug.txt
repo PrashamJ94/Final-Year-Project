@@ -1,0 +1,23 @@
+[magpie]
+default_lengthout = 1e5
+
+[software]
+path = uncompilable/
+target_files =
+    com/example/Triangle.java.xml
+fitness = repair
+
+compile_cmd = javac -cp junit-4.10.jar com/example/Triangle.java com/example/TriangleTest.java
+test_cmd = java -cp junit-4.10.jar:. org.junit.runner.JUnitCore com.example.TriangleTest
+
+[search]
+target_fitness = 0
+max_steps = 300
+max_time = 60
+possible_edits =
+    SrcmlStmtReplacement
+    SrcmlStmtInsertion
+    SrcmlStmtDeletion
+
+[search.gp]
+pop_size = 50

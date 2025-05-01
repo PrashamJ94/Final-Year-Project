@@ -1,0 +1,20 @@
+magpie_llm-745B/_magpie*
+
+# Compiled python modules.
+magpie_llm-745B/*.pyc
+
+# Setuptools distribution folder.
+magpie_llm-745B/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+magpie_llm-745B/*.egg-info
+
+magpie_llm-745B/examples/weka
+magpie_llm-745B/examples/zlib/data
+magpie_llm-745B/examples/zlib/necessary/data
+
+
+magpie_llm-745B/.venv/
+magpie_llm-745B/.env
+
+magpie_llm-745B/__pycache__/

@@ -1,0 +1,38 @@
+import sys
+from math import *
+
+def main():
+    n = int(input().strip())
+    ch = [''] * n
+    s1, s2 = 0, 0
+    j, flag, dif = 0, 0, 0
+
+    for i in range(n):
+        x, y = map(int, input().strip().split())
+        temp1, temp2 = s1 + x, s2 + y
+
+        if abs(temp1 - s2) <= 500:
+            s1 += x
+            ch[j] = 'A'
+            j += 1
+            continue
+
+        if abs(temp2 - s1) <= 500:
+            s2 += y
+            ch[j] = 'G'
+            j += 1
+            continue
+
+        flag = 1
+        break
+
+    if flag == 1:
+        print(-1)
+    else:
+        ans = "".join(ch)
+        print(ans)
+
+if __name__ == "__main__":
+    main()
+
+

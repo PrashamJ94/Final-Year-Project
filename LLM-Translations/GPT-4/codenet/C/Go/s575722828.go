@@ -1,0 +1,14 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	var S int
+
+	fmt.Scanf("%d", &S)
+
+	fmt.Printf("%d:%d:%d\n", int(S/3600), int((S%3600)/60), S%60)
+}
+// 

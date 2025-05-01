@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 16), ('Triangle.java.xml', 'stmt', 12))", "SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 5), ('Triangle.java.xml', 'stmt', 14))"]
+
+I've selected the most beneficial edits from the available parents to create a child program. The child program will inherit the "SrcmlStmtReplacement" edit from Parent 2 and Parent 5, which replaces statements in the source code. The "SrcmlStmtInsertion" edit from Parent 5 will also be included, which inserts a new statement in the source code. These edits are chosen because they have the potential to improve the repair fitness of the child program by modifying the source code in a way that could lead to better repair results.

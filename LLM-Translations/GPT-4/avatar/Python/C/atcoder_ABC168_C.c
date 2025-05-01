@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int a, b, h, m;
+    scanf("%d %d %d %d", &a, &b, &h, &m);
+
+    double C = fabs(360.0 / 60 * m - 360.0 / 12 * h - 360.0 / 12 / 60 * m);
+    if (C > 180) {
+        C = 360 - C;
+    }
+
+    double cosC = cos(M_PI / 180 * C);
+    double result = sqrt(a * a + b * b - 2 * a * b * cosC);
+
+    printf("%lf\n", result);
+
+    return 0;
+}
+// End of Code

@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 12), ('Triangle.java.xml', 'stmt', 12))", "SrcmlStmtDeletion(('Triangle.java.xml', 'stmt', 3))"]
+
+I have selected the edit from Parent 1, which is an insertion, as it has the best fitness among all the parents. Then, I have selected the edit from Parent 2, which is a deletion, as it is also a good choice to remove a faulty statement. These two edits combined should lead to a child program that is more likely to be functionally correct.

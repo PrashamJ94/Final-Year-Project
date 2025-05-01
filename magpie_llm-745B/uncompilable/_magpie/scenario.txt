@@ -1,0 +1,27 @@
+
+    [magpie]
+    default_lengthout = 1e5
+
+    [software]
+    path = uncompilable/
+    target_files =
+        com/example/HumanEval_55.java.xml
+    fitness = repair
+
+    init_cmd = bash init_bug.sh
+    compile_cmd = javac -cp junit-platform-console-standalone-1.7.2-all.jar com/example/HumanEval_55.java com/example/HumanEval_55Test.java
+    test_cmd = java -jar junit-platform-console-standalone-1.7.2-all.jar --class-path . --select-class=com.example.HumanEval_55Test
+
+    [search]
+    target_fitness = 0
+    algorithm = GeneticProgrammingUniformConcat
+    max_steps = 20
+    max_time = 120
+    possible_edits =
+        SrcmlStmtDeletion
+        SrcmlStmtInsertion
+        SrcmlStmtReplacement
+
+    [search.gp]
+    pop_size = 100
+        

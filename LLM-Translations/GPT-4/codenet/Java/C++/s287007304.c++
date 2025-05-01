@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+#include <sstream>
+
+int main() {
+    std::string input;
+    int a, b;
+
+    std::getline(std::cin, input);
+    std::istringstream iss(input);
+    iss >> a >> b;
+
+    if (b % a == 0) {
+        std::cout << a + b << std::endl;
+    } else {
+        std::cout << b - a << std::endl;
+    }
+
+    return 0;
+}
+
+// 

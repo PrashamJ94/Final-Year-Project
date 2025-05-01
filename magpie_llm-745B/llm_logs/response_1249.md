@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 12), ('Triangle.java.xml', 'stmt', 12))", "SrcmlStmtDeletion(('Triangle.java.xml', 'stmt', 3))"]
+
+I have selected the edit from Parent 1 (with fitness 50.0) which is the best so far, and combined it with the edit from Parent 2 (or Parent 3 or Parent 4) which also has a good fitness (75.0). The combination of these two edits might lead to a child program with a lower fitness (i.e., better program repair).

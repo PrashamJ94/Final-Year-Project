@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 16), ('Triangle.java.xml', 'stmt', 12))", "SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 5), ('Triangle.java.java', 'stmt', 14))"]
+
+I have chosen the edits from Parent 2 and Parent 5 to create the child. These edits seem to be the most beneficial as they introduce a replacement and an insertion, which can lead to a more diverse and potentially fitter child.

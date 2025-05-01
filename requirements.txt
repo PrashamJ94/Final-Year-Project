@@ -1,0 +1,6 @@
+openai
+groq
+dotenv
+numpy
+pandas
+argparse

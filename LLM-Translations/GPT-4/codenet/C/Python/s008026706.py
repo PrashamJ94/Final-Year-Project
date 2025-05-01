@@ -1,0 +1,10 @@
+def main():
+    a, b = map(int, input().split())
+    x = 2 * a + 2 * b
+    y = a * b
+    print(y, x)
+
+if __name__ == "__main__":
+    main()
+
+

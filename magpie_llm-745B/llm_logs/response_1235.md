@@ -1,0 +1,5 @@
+After analyzing the available parents, I have selected the edits that I believe will lead to the best child program. Here is the child:
+
+Child: ["SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 16), ('Triangle.java.xml', 'stmt', 12))", "SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 5), ('Triangle.java.xml', 'stmt', 14))", "SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 17), ('Triangle.java.xml', 'stmt', 7))"]
+
+This child program combines the edits from Parents 2, 5, and 3. Specifically, it inherits the first edit from Parent 2, which replaces a statement in the source file. It inherits the second edit from Parent 5, which inserts a new statement. Finally, it inherits the third edit from Parent 3, which replaces another statement. I believe that this combination of edits will lead to a child program with a lower fitness score, as it addresses multiple areas of the source file.

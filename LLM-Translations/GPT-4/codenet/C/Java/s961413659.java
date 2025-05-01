@@ -1,0 +1,27 @@
+
+import java.util.Scanner;
+
+public class s961413659 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        scanner.close();
+        
+        if (a == 1) {
+            a = 14;
+        }
+        if (b == 1) {
+            b = 14;
+        }
+        if (a < b) {
+            System.out.println("Bob");
+        } else if (a > b) {
+            System.out.println("Alice");
+        } else {
+            System.out.println("Draw");
+        }
+    }
+}
+
+// 

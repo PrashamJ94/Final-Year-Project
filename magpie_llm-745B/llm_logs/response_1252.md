@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'stmt', 9))", "SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 3), ('Triangle.java.xml', 'stmt', 2))"]
+
+I chose the edits from Parent 1 and Parent 4 because they both seem to be addressing different issues in the source code. The edit from Parent 1 ("SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'stmt', 9))") is likely to fix a bug in the sorting of sides, whereas the edit from Parent 4 ("SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 3), ('Triangle.java.xml', 'stmt', 2))") is likely to fix a bug in the triangle classification. Combining these two edits may lead to a functionally correct child program.

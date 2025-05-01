@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtDeletion(('Triangle.java.xml', 'stmt', 16))", "SrcmlStmtDeletion(('Triangle.java.xml', 'stmt', 7))"]
+
+I have chosen the edits from Parent 1 and Parent 2, which have the lowest fitness, to create the child. Both parents have a fitness of 50.0, and their edits are related to deleting statements. I believe that combining these two edits will lead to a child program with a lower fitness.

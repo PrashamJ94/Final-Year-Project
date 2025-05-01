@@ -1,0 +1,1 @@
+Child: ["SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'stmt', 9))", "SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 8), ('Triangle.java.xml', 'stmt', 10))"]

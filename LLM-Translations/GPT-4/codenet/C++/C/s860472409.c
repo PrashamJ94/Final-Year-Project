@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+  int N, ans, i, count;
+  scanf("%d", &N);
+  int *A = (int *)malloc(N * sizeof(int));
+  for(i = 0; i < N; i++){
+      scanf("%d", &A[i]);
+  }
+  i = 0;
+  ans = 0;
+  count = 0;
+  while(A[i+1] != NULL){
+    if(A[i] == A[i+1]){
+      count++;
+      if(count%2 != 0)
+        ans++;
+    }
+    else
+      count = 0;
+    i++;
+  }
+  
+  printf("%d\n", ans);
+  free(A);
+  return 0;
+}
+// 

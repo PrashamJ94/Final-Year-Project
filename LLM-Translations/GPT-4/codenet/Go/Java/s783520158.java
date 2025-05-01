@@ -1,0 +1,20 @@
+
+import java.util.Scanner;
+
+public class s783520158 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        scanner.close();
+
+        if (b - a == c - b) {
+            System.out.println("YES");
+        } else {
+            System.out.println("NO");
+        }
+    }
+}
+
+// 

@@ -1,0 +1,3 @@
+Child: ["SrcmlStmtInsertion(('Triangle.java.xml', '_inter_block', 27), ('Triangle.java.xml', 'stmt', 9))", "SrcmlStmtReplacement(('Triangle.java.xml', 'stmt', 8), ('Triangle.java.xml', 'stmt', 10))"]
+
+I chose the edit from Parent 2, which is the only edit that doesn't affect the existing code and could potentially fix the TODO comment. I also chose the edit from Parent 3, which replaces a statement with another statement, which could potentially fix the bug.

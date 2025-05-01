@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+int main() {
+    std::string S, T;
+    std::cin >> S >> T;
+
+    int N = S.length();
+    int M = T.length();
+    int ans = M;
+    for (int i = 0; i <= N - M; ++i) {
+        std::string S_2 = S.substr(i, M);
+        int cnt = 0;
+        for (int j = 0; j < M; ++j) {
+            if (T[j] != S_2[j]) {
+                cnt += 1;
+            }
+        }
+        ans = std::min(ans, cnt);
+    }
+
+    std::cout << ans << std::endl;
+
+    return 0;
+} // 
