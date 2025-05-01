@@ -1,5 +1,5 @@
 
-# LLM Preprocessor & Genetic Improvement Pipeline
+# README
 
 This project provides tooling for source-to-source transpilation repair using LLMs and Genetic Improvement techniques.
 
