@@ -90,10 +90,14 @@ Replace `<pipeline_mode>` with `standard`, `llm-crossover`, or `novel-mutation`.
 
 ```bash
 .
-├── magpie/               # Main module
-│   └── .env              # OpenAI API key goes here
-├── experiments_pipeline.py
-├── gi_pipeline.py
-├── requirements.txt
-└── README.md
+├── dataset/                  # Original EvalPlus dataset
+├── LLM-Translations/         # Output from LLM-based translation
+├── magpie_llm-745B/          # Modified MAGPIE tool containing LLM Preprocessor & Rule-based Test Generation
+│   ├── llm_preprocessor.py   # Script for fixing syntax errors and semantic issues
+│   ├── create_tests.py       # Rule-based test generation script
+│   └── .env                  # Environment configuration file
+├── rule-based-translations/  # Output from rule-based translation
+├── .gitignore                # Files/directories to ignore in Git
+├── README.md                 # Project overview and instructions
+└── requirements.txt          # Python dependencies
 ```
