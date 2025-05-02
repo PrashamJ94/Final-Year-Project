@@ -18,3 +18,6 @@ magpie_llm-745B/.venv/
 magpie_llm-745B/.env
 
 magpie_llm-745B/__pycache__/
+
+magpie_llm-745B/experiment_results/
+magpie_llm-745B/gi_experiments/
